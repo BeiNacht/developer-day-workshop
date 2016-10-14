@@ -153,7 +153,7 @@ NativeScript button elements have a `tap` event that you can subscribe to using 
 
 Your challenge is to combine the two, so that when the user taps the “Add” button they see the value they typed in the text field.
 
-One last note before you get started: replace the contents of your `main.ts` file with the code below, which adds a `NativeScriptFormsModule` import you’ll need for this to all work.
+One last note before you get started: replace the contents of your `main.ts` file with the code below, which adds a `NativeScriptFormsModule` import you’ll need for this to all work. Because it adds the property `[(ngModel)]` to `TextField`.
 
 ``` TypeScript
 import { platformNativeScriptDynamic, NativeScriptModule } from "nativescript-angular/platform";
